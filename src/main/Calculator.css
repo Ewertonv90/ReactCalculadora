@@ -1,0 +1,25 @@
+
+.calculator{
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px ;
+}
+
+*{
+    font-family: 'RobotoMono', monospace;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    background: linear-gradient(to right, rgb(83,105,118), rgb(41,46,73));
+}
